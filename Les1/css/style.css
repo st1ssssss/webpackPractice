@@ -1,0 +1,9 @@
+.datecalc-block, .timer-block{
+    display: none;
+}
+
+
+
+.isVisible{
+    display: block
+}
