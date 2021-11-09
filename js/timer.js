@@ -2,11 +2,6 @@ import { loadScript } from './load.js'
 import { ending } from './alarmclock.js'
 
 
-loadScript('./common.js', () => {
-    loadScript('./luxon.min.js>', () => {
-        console.log('timer.js loaded');
-    })
-})
 
 const tickWindow = document.getElementById('tickWindow');
 let timerX

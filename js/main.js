@@ -5,7 +5,7 @@ import { setEventHandlers } from './common.js';
 import '../css/style.css';
 import '../media/zvuk.mp3';
 
-Howler.volume(0.2)
+
 
 const dateCalcFrom = document.getElementById('datecalc');
 const dateCalcResult = document.getElementById('datecalc_result');
